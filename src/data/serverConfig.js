@@ -18,7 +18,7 @@ export const tutorialSteps = [
 
 export const features = [
   ['01', 'Clear Lag', 'Membantu mengelola entitas dan item yang tidak diperlukan untuk mendukung performa server.', 'Gauge'],
-  ['02', 'Simple Voice Chat', 'Komunikasi proximity voice chat yang lebih natural saat bermain bersama. Mungkin memerlukan client versi 26.3.', 'Mic'],
+  ['02', 'Simple Voice Chat', 'Komunikasi proximity voice chat yang lebih natural saat bermain bersama. Memerlukan client versi 26.3.', 'Mic'],
   ['03', 'Combat Tag', 'Mendorong pemain tetap bertanggung jawab saat bertarung dan tidak kabur dengan disconnect.', 'Swords'],
   ['04', 'RTP', 'Memungkinkan teleportasi ke lokasi acak yang memenuhi syarat, jika fitur tersedia di server.', 'Shuffle'],
   ['05', 'Simple Login', 'Fitur autentikasi atau login sesuai implementasi server. Ikuti petunjuk yang tersedia di dalam game.', 'LogIn'],
