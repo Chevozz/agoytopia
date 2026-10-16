@@ -1,6 +1,7 @@
 export const serverConfig = {
   name: 'Agoytopia',
   ip: 'play.agoytopia.my.id',
+  paperVersion: '26.3',
   icon: '/images/server-icon.png',
   discord: 'https://discord.gg/jvfetw3VK',
   adminTag: '@yoga88',
@@ -16,12 +17,15 @@ export const tutorialSteps = [
 ];
 
 export const features = [
-  ['01', 'Clear Lag', 'Membantu mengelola entitas dan item yang tidak diperlukan untuk mendukung performa server.', '◈'],
-  ['02', 'Simple Voice Chat', 'Komunikasi proximity voice chat yang lebih natural saat bermain bersama. Mungkin memerlukan client mod yang kompatibel.', '◉'],
-  ['03', 'Prism', 'Fitur pencatatan riwayat blok untuk membantu staff berwenang menyelidiki perubahan dan dugaan griefing.', '▦'],
-  ['04', 'Combat Tag', 'Mendorong pemain tetap bertanggung jawab saat bertarung dan tidak kabur dengan disconnect.', '⚔'],
-  ['05', 'RTP', 'Memungkinkan teleportasi ke lokasi acak yang memenuhi syarat, jika fitur tersedia di server.', '✣'],
-  ['06', 'Simple Login', 'Fitur autentikasi atau login sesuai implementasi server. Ikuti petunjuk yang tersedia di dalam game.', '⌁'],
+  ['01', 'Clear Lag', 'Membantu mengelola entitas dan item yang tidak diperlukan untuk mendukung performa server.', 'Gauge'],
+  ['02', 'Simple Voice Chat', 'Komunikasi proximity voice chat yang lebih natural saat bermain bersama. Mungkin memerlukan client mod yang kompatibel.', 'Mic'],
+  ['03', 'Prism', 'Fitur pencatatan riwayat blok untuk membantu staff berwenang menyelidiki perubahan dan dugaan griefing.', 'ClipboardList'],
+  ['04', 'Combat Tag', 'Mendorong pemain tetap bertanggung jawab saat bertarung dan tidak kabur dengan disconnect.', 'Swords'],
+  ['05', 'RTP', 'Memungkinkan teleportasi ke lokasi acak yang memenuhi syarat, jika fitur tersedia di server.', 'Shuffle'],
+  ['06', 'Simple Login', 'Fitur autentikasi atau login sesuai implementasi server. Ikuti petunjuk yang tersedia di dalam game.', 'LogIn'],
+  ['07', 'TreeFeller', 'Tebang kayu dari bawah untuk menghancurkan seluruh pohon. Gunakan /treefeller toggle untuk ON/OFF, atau tahan Sneak untuk menebang satu blok manual.', 'TreePine'],
+  ['08', 'Farm Protect', 'Farmland tetap aman dan tidak berubah menjadi tanah meski diinjak atau dilompati pemain maupun mob.', 'ShieldCheck'],
+  ['09', 'Ekonomi Weekend', 'Segera hadir: sistem uang dengan /bal, toko pemain (Shop), dan sistem lelang (Auction).', 'Coins'],
 ];
 
 export const rules = [
