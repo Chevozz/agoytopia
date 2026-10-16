@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { ArrowDown, ArrowRight, ArrowUpRight, Check, CircleAlert, Coins, Copy, Gauge, LogIn, Menu, MessageCircle, Mic, Shuffle, ShieldCheck, Sparkles, Swords, TreePine, X, ClipboardList } from 'lucide-react';
+import { ArrowDown, ArrowRight, ArrowUpRight, Check, CircleAlert, Coins, Copy, Gauge, LogIn, MapPinned, Menu, MessageCircle, Mic, Shuffle, ShieldCheck, Sparkles, Swords, TreePine, X } from 'lucide-react';
 import { createRoot } from 'react-dom/client';
 import { serverConfig, tutorialSteps, features, rules } from './data/serverConfig';
 import './styles.css';
 
-const featureIcons = { Gauge, Mic, ClipboardList, Swords, Shuffle, LogIn, TreePine, ShieldCheck, Coins };
+const featureIcons = { Gauge, Mic, Swords, Shuffle, LogIn, TreePine, ShieldCheck, Coins, MapPinned };
 
 function CopyIpButton({ label = 'Copy IP' }) {
   const [state, setState] = useState('idle');
