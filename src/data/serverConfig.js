@@ -24,7 +24,7 @@ export const features = [
   ['05', 'Simple Login', 'Fitur autentikasi atau login sesuai implementasi server. Ikuti petunjuk yang tersedia di dalam game.', 'LogIn'],
   ['06', 'TreeFeller', 'Tebang kayu dari bawah untuk menghancurkan seluruh pohon. Gunakan /treefeller toggle untuk ON/OFF, atau tahan Sneak untuk menebang satu blok manual.', 'TreePine'],
   ['07', 'Farm Protect', 'Farmland tetap aman dan tidak berubah menjadi tanah meski diinjak atau dilompati pemain maupun mob.', 'ShieldCheck'],
-  ['08', 'Ekonomi Weekend', 'Segera hadir: sistem uang dengan /bal, toko pemain (Shop), dan sistem lelang (Auction).', 'Coins'],
+  ['08', 'Ekonomi', 'Segera hadir: sistem uang dengan /bal, toko pemain (Shop), dan sistem lelang (Auction).', 'Coins'],
   ['09', 'Teleportasi & Home', 'Gunakan /tpa untuk mengirim permintaan teleportasi ke pemain lain, lalu /sethome untuk menyimpan lokasi rumah atau base agar mudah diakses kembali.', 'MapPinned'],
 ];
 
